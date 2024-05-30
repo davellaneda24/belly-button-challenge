@@ -1,0 +1,18 @@
+.chart-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.charts-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: stretch;
+  }
+
+  .chart-card {
+    flex: 1;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
